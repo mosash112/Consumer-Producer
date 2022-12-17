@@ -52,7 +52,7 @@ void control(int old){
         }
     }
     shmdt(q);
-    // printQueue(shmp, "shmp");
+    printQueue(shmp, "shmp");
 }
 
 

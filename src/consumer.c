@@ -35,7 +35,7 @@ key_t control(int old){
         key = ftok("",shmp->start);
     }
     shmdt(q);
-    // printQueue(shmp, "shmp");
+    printQueue(shmp, "shmp");
     return key;
 }
 
@@ -68,13 +68,13 @@ int main(int argc, char* argv[])
                 shmdt(mem);
                 // shmctl(shmid,IPC_RMID,NULL);
                 start = start+sizeof(seg);
+                key = control(1);
             }
             // shmp->start = start;
 
             sigSem(semid,2);//Release buffer
             sigSem(semid,0);//Inform producers that there is room
             // sleep(2);//Consumption frequency
-            key = control(1);
         // }
     }
     return 0;
