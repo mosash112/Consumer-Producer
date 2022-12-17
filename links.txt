@@ -1,0 +1,6 @@
+https://www.programmerall.com/article/2671528654/
+https://www.tutorialspoint.com/inter_process_communication/inter_process_communication_semaphores.htm
+https://www.geeksforgeeks.org/ipc-shared-memory/
+https://docs.oracle.com/cd/E19455-01/806-4750/6jdqdfltg/index.html
+https://www.geeksforgeeks.org/how-to-use-make-utility-to-build-c-projects/
+https://www.cs.colostate.edu/~cs157/LectureMakefile.pdf
